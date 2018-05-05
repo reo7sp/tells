@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.7em;
+    padding: 16px;
+}
+
+.site-header {
+    padding: 17px;
+}
+
+.site-title {
+}
+
+.site-title__link {
+    color: inherit;
+}
+
+.content {
+}
+
+.content__block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content-block {
+    margin: 16px;
+    width: 220px;
+}
+
+.content-block__list {
+    list-style: none;
+    padding: 0;
+}
+
+.content-block__list-item {
+    margin: 14px 0;
+}
+
+.content-block__link {
+}
+
+.content-block__phrase {
+    font-family: serif;
+    font-size: 1.4em;
+    margin: 14px 0;
+}
+
+.content-block__text {
+    margin: 0;
+}
