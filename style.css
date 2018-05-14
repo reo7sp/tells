@@ -57,3 +57,16 @@ body {
 .content-block__text {
     margin: 0;
 }
+
+.site-footer {
+    margin-top: 3em;
+}
+
+.site-footer__container {
+    float: right;
+}
+
+.site-footer__link {
+    color: #bbb;
+    margin-left: 8px;
+}
