@@ -110,16 +110,23 @@ section {
 }
 
 .chapter {
-    padding: 0 32px;
+    padding: 52px 32px;
+    padding-bottom: 38px;
+    margin: 0;
 }
 
 .chapter__title {
     margin-top: 0;
-    padding-top: 26px;
 }
 
-.chapter__link-table {
+.chapter__table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
 
+.chapter__th {
+    text-align: left;
+    padding-bottom: 13px;
 }
 
 .chapter__links-col {
@@ -129,6 +136,10 @@ section {
 .chapter__desc-col {
 }
 
+.chapter__td {
+    padding: 13px 0;
+    vertical-align: top;
+}
 
 .site-footer {
     margin-top: 3em;
