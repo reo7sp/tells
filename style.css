@@ -37,22 +37,62 @@ section {
 
 .intro-text {
     margin-top: 26px;
-    max-width: 700px;
+    max-width: 600px;
 }
 
-.back-color--first {
+.back-color--life {
+    background-color: #fed;
+}
+
+.back-color--people {
     background-color: #def;
 }
 
-.back-color--second {
-    background-color: #fed;
+.back-color--creativity {
+    background-color: #ede;
+}
+
+.back-color--gtd {
+    background-color: #dfd;
+}
+
+.back-color--writing {
+    background-color: #fdd;
+}
+
+.back-color--code {
+    background-color: #ddf;
+}
+
+.back-color--design {
+    background-color: #eee;
+}
+
+.back-color--things {
+    background-color: #eed;
+}
+
+.back-color--health {
+    background-color: #efe;
+}
+
+.back-color--planning {
+    background-color: #ddd;
+}
+
+.back-color--more {
+    background-color: #fcc;
+}
+
+.back-color--wow {
+    background-color: #ccf;
 }
 
 .chapter-list {
     width: 100vw;
     margin-left: -32px;
     padding: 0 32px;
-    max-width: 1000px;
+    max-width: 600px;
 }
 
 .chapter-list__item {
@@ -78,40 +118,16 @@ section {
     padding-top: 26px;
 }
 
+.chapter__link-table {
 
-.content {
 }
 
-.content__block {
+.chapter__links-col {
+    width: 33%;
 }
 
-.content-block {
-    margin: 16px;
-    width: 220px;
+.chapter__desc-col {
 }
-
-.content-block__list {
-    list-style: none;
-    padding: 0;
-}
-
-.content-block__list-item {
-    margin: 14px 0;
-}
-
-.content-block__link {
-}
-
-.content-block__phrase {
-    font-family: serif;
-    font-size: 1.4em;
-    margin: 14px 0;
-}
-
-.content-block__text {
-    margin: 0;
-}
-
 
 
 .site-footer {
