@@ -15,11 +15,11 @@ section {
 }
 
 .site-container {
-    margin: 32px;
+    margin: 0 64px;
 }
 
 .site-header {
-    margin-top: 52px;
+    margin-top: 78px;
 }
 
 .site-header__resume-link {
@@ -90,8 +90,8 @@ section {
 
 .chapter-list {
     width: 100vw;
-    margin-left: -32px;
-    padding: 0 32px;
+    margin-left: -64px;
+    padding: 0 64px;
     max-width: 600px;
 }
 
@@ -106,12 +106,12 @@ section {
 
 .chapters {
     width: 100vw;
-    margin-left: -32px;
+    margin-left: -64px;
 }
 
 .chapter {
-    padding: 52px 32px;
-    padding-bottom: 38px;
+    padding: 52px 64px;
+    padding-bottom: 26px;
     margin: 0;
 }
 
@@ -124,26 +124,22 @@ section {
     border-collapse: collapse;
 }
 
-.chapter__th {
-    text-align: left;
-    padding-bottom: 13px;
-}
-
-.chapter__links-col {
-    width: 33%;
-}
-
-.chapter__desc-col {
-}
-
-.chapter__td {
-    padding: 13px 0;
+.chapter__td-left {
     vertical-align: top;
+    padding-bottom: 25px;
+    width: 35%;
+}
+
+.chapter__td-right {
+    vertical-align: top;
+    padding-bottom: 25px;
+    padding-left: 20px;
 }
 
 .site-footer {
-    margin-top: 3em;
+    margin: 56px 0;
 }
+
 
 .site-footer__container {
     float: right;
