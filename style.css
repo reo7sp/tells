@@ -10,6 +10,15 @@ h1, h2 {
     margin: 26px 0;
 }
 
+ul {
+    margin: 0;
+    padding: 0 0 0 24px;
+}
+
+p {
+    margin: 0 0 13px 0;
+}
+
 section {
     margin: 52px 0;
 }
@@ -133,13 +142,17 @@ section {
 .chapter__td-right {
     vertical-align: top;
     padding-bottom: 25px;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 .site-footer {
     margin: 56px 0;
 }
 
+.site-footer__version {
+    display: inline;
+    color: #bbb;
+}
 
 .site-footer__container {
     float: right;
