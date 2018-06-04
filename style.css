@@ -10,7 +10,7 @@ h1, h2 {
     margin: 26px 0;
 }
 
-ul {
+ul, ol {
     margin: 0;
     padding: 0 0 0 24px;
 }
