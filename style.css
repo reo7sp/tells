@@ -16,7 +16,7 @@ ul, ol {
 }
 
 p {
-    margin: 0 0 13px 0;
+    margin: 0 0 7px 0;
 }
 
 section {
@@ -160,5 +160,5 @@ section {
 
 .site-footer__link {
     color: #bbb;
-    margin-left: 8px;
+    margin-left: 12px;
 }
