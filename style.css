@@ -6,24 +6,25 @@ body {
     padding: 0;
 }
 
-h1, h2 {
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-weight: 800;
+    margin: 26px 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.75em;
+    font-weight: 800;
     margin: 26px 0;
 }
 
 h3 {
-    margin: 0;
-}
-
-h1 {
-    font-size: 3em;
-}
-
-h2 {
-    font-size: 1.75em;
-}
-
-h3 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.25em;
+    font-weight: 800;
+    margin: 0;
 }
 
 ul, ol {
@@ -168,14 +169,15 @@ section {
 .chapter__title-info {
     vertical-align: top;
     font-size: 16px;
+    font-family: sans-serif;
     font-weight: 400;
     padding: 6px 12px;
-    margin-left: 16px
+    margin-left: 20px
 }
 
 .chapter__title-info--life {
-    color: #ba9;
-    border: 1px solid #ba9;
+    color: #a98;
+    border: 1px solid #a98;
     border-radius: 4px;
 }
 
