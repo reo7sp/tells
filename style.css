@@ -14,6 +14,18 @@ h3 {
     margin: 0;
 }
 
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.75em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
 ul, ol {
     margin: 0;
     padding: 0 0 0 24px;
@@ -29,6 +41,12 @@ p:first-child {
 
 p:last-child {
     margin-bottom: 0;
+}
+
+a {
+    color: #0060a0;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(0,96,160,.2);
 }
 
 td, th {
@@ -49,15 +67,7 @@ section {
 
 .site-header__resume-link {
     color: inherit;
-}
-
-.site-header__status {
-    padding: 6px 12px;
-    margin-left: 16px;
-    vertical-align: top;
-    font-size: 12px;
-    border: 1px solid #000;
-    font-weight: normal;
+    border-bottom-width: 2px;
 }
 
 .intro-text {
@@ -123,7 +133,7 @@ section {
     display: inline-block;
     height: 26px;
     color: inherit;
-    text-decoration: none;
+    border: 0;
     padding: 0 12px;
     margin: 0;
 }
@@ -153,6 +163,25 @@ section {
 
 .chapter__title {
     margin-top: 0;
+}
+
+.chapter__title-info {
+    vertical-align: top;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 6px 12px;
+    margin-left: 16px
+}
+
+.chapter__title-info--life {
+    color: #ba9;
+    border: 1px solid #ba9;
+    border-radius: 4px;
+}
+
+.chapter__title a {
+    border: 0;
+    color: inherit;
 }
 
 .chapter__table {
