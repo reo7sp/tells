@@ -10,6 +10,10 @@ h1, h2 {
     margin: 26px 0;
 }
 
+h3 {
+    margin: 0;
+}
+
 ul, ol {
     margin: 0;
     padding: 0 0 0 24px;
@@ -19,16 +23,28 @@ p {
     margin: 0 0 7px 0;
 }
 
+p:first-child {
+    margin-top: 0;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+td, th {
+    padding: 0;
+}
+
 section {
-    margin: 52px 0;
+    margin: 26px 0 52px 0;
 }
 
 .site-container {
-    margin: 0 64px;
+    margin: 0 100px;
 }
 
 .site-header {
-    margin-top: 78px;
+    margin-top: 52px;
 }
 
 .site-header__resume-link {
@@ -45,7 +61,6 @@ section {
 }
 
 .intro-text {
-    margin-top: 26px;
     max-width: 600px;
 }
 
@@ -62,7 +77,7 @@ section {
 }
 
 .back-color--gtd {
-    background-color: #dfd;
+    background-color: #efc;
 }
 
 .back-color--writing {
@@ -74,33 +89,33 @@ section {
 }
 
 .back-color--design {
-    background-color: #eee;
+    background-color: #dfd;
 }
 
 .back-color--things {
-    background-color: #eed;
+    background-color: #ffd;
 }
 
 .back-color--health {
-    background-color: #efe;
+    background-color: #cec;
 }
 
 .back-color--planning {
-    background-color: #ddd;
+    background-color: #eee;
 }
 
 .back-color--more {
-    background-color: #fcc;
+    background-color: #fec;
 }
 
 .back-color--wow {
-    background-color: #ccf;
+    background-color: #cfe;
 }
 
 .chapter-list {
     width: 100vw;
-    margin-left: -64px;
-    padding: 0 64px;
+    margin-left: -100px;
+    padding: 0 100px;
     max-width: 600px;
 }
 
@@ -115,13 +130,25 @@ section {
 
 .chapters {
     width: 100vw;
-    margin-left: -64px;
+    margin-left: -100px;
+    margin-top: 78px;
 }
 
 .chapter {
-    padding: 52px 64px;
-    padding-bottom: 26px;
+    padding: 52px 100px 52px;
     margin: 0;
+}
+
+.chapter-half-container-table {
+    height: 1px;
+    width: 100%; 
+    border: none;
+    border-spacing: 0; 
+    border-collapse: collapse;
+}
+
+.chapter--inhalf {
+    height: 100%;
 }
 
 .chapter__title {
@@ -135,18 +162,22 @@ section {
 
 .chapter__td-left {
     vertical-align: top;
-    padding-bottom: 25px;
-    width: 35%;
+    padding-bottom: 26px;
+    width: 30%;
 }
 
 .chapter__td-right {
     vertical-align: top;
-    padding-bottom: 25px;
-    padding-left: 40px;
+    padding-bottom: 26px;
+    padding-left: 30px;
+}
+
+.chapter__td-full {
+    padding-bottom: 26px;
 }
 
 .site-footer {
-    margin: 56px 0;
+    margin: 52px 0 78px;
 }
 
 .site-footer__version {
