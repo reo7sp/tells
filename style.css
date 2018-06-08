@@ -50,6 +50,11 @@ a {
     border-bottom: 1px solid rgba(0,96,160,.2);
 }
 
+a:hover {
+    color: #d04000;
+    border-bottom-color: rgba(208,64,0,.2);
+}
+
 td, th {
     padding: 0;
 }
@@ -149,6 +154,11 @@ section {
     margin: 0;
 }
 
+.chapter-list__item:hover {
+    color: inherit;
+    filter: brightness(110%);
+}
+
 .chapters {
     width: 100%;
     margin-top: 78px;
@@ -159,16 +169,16 @@ section {
     margin: 0;
 }
 
+.chapter--inhalf {
+    height: 100%;
+}
+
 .chapter-half-container-table {
     height: 1px;
     width: 100%; 
     border: none;
     border-spacing: 0; 
     border-collapse: collapse;
-}
-
-.chapter--inhalf {
-    height: 100%;
 }
 
 .chapter__title {
@@ -185,8 +195,8 @@ section {
 }
 
 .chapter__title-info--life {
-    color: #a98;
-    border: 1px solid #a98;
+    color: #987;
+    border: 1px solid #987;
     border-radius: 4px;
 }
 
@@ -214,6 +224,17 @@ section {
 
 .chapter__td-full {
     padding-bottom: 26px;
+}
+
+.chapter__extra {
+    position: relative;
+    left: 60%;
+    padding: 48px 64px;
+    width: 30%;
+    background-color: #ffc98f;
+    border-radius: 8px;
+    margin: -80px 0 -128px;
+    transform: rotate(2deg)
 }
 
 .site-footer {
