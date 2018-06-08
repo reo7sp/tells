@@ -9,21 +9,21 @@ body {
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 3em;
-    font-weight: 800;
+    font-weight: 700;
     margin: 26px 0;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.75em;
-    font-weight: 800;
+    font-weight: 700;
     margin: 26px 0;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.25em;
-    font-weight: 800;
+    font-weight: 700;
     margin: 0;
 }
 
@@ -59,11 +59,22 @@ section {
 }
 
 .site-container {
-    margin: 0 100px;
+    box-sizing: border-box;
+}
+
+@media (min-width: 1441px) {
+    .site-container {
+        max-width: 1441px;
+        border-right: 1px solid #ddd;
+    }
 }
 
 .site-header {
-    margin-top: 52px;
+    padding: 52px 100px 0;
+}
+
+.site-header h1 {
+    margin: 0;
 }
 
 .site-header__resume-link {
@@ -73,6 +84,7 @@ section {
 
 .intro-text {
     max-width: 600px;
+    padding: 0 100px;
 }
 
 .back-color--life {
@@ -124,8 +136,6 @@ section {
 }
 
 .chapter-list {
-    width: 100vw;
-    margin-left: -100px;
     padding: 0 100px;
     max-width: 600px;
 }
@@ -140,8 +150,7 @@ section {
 }
 
 .chapters {
-    width: 100vw;
-    margin-left: -100px;
+    width: 100%;
     margin-top: 78px;
 }
 
@@ -208,7 +217,7 @@ section {
 }
 
 .site-footer {
-    margin: 52px 0 78px;
+    padding: 0 100px 78px;
 }
 
 .site-footer__version {
