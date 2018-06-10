@@ -63,6 +63,14 @@ section {
     margin: 26px 0 52px 0;
 }
 
+.paragraph-break {
+    background-image: url(img/paragraph-break.png);
+    background-size: 44px 17px;
+    height: 17px;
+    max-width: 528px;
+    margin: 16px auto;
+}
+
 .site-container {
     box-sizing: border-box;
 }
@@ -175,9 +183,9 @@ section {
 
 .chapter-half-container-table {
     height: 1px;
-    width: 100%; 
+    width: 100%;
     border: none;
-    border-spacing: 0; 
+    border-spacing: 0;
     border-collapse: collapse;
 }
 
