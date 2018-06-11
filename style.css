@@ -163,7 +163,7 @@ section {
 
 .chapter-list {
     padding: 0 100px;
-    transition: transform 0.75s ease-in-out;
+    transition: transform 1s ease-in-out;
     transition-delay: 1s;
 }
 
@@ -187,7 +187,7 @@ section {
 .chapter-list__comment {
     position: absolute;
     left: 580px;
-    transition: opacity 0.75s ease-in-out;
+    transition: opacity 1s ease-in-out;
     transition-delay: 1s;
 }
 
@@ -284,7 +284,7 @@ section {
     background-size: 44px 17px;
     height: 17px;
     max-width: 528px;
-    margin: 16px auto;
+    margin: 8px auto;
 }
 
 .paragraph-extra {
@@ -296,6 +296,22 @@ section {
 
 .paragraph-same {
     color: #888;
+}
+
+.paragraph-handwriting {
+    display: inline-block;
+    padding: 8px;
+    background-color: white;
+    font-size: 1.5em;
+    font-family: 'Bad Script', cursive;
+}
+
+.paragraph-handwriting--student {
+    color: #44d;
+}
+
+.paragraph-handwriting--teacher {
+    color: #d44;
 }
 
 .site-footer {
