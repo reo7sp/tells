@@ -95,6 +95,20 @@ section {
     border-bottom-width: 2px;
 }
 
+.up-button {
+    position: fixed;
+    top: 52px;
+    right: 100px;
+    font-size: 64px;
+    color: rgba(127, 127, 127, 0.3);
+    border: 0;
+    z-index: 10;
+}
+
+.up-button--hidden {
+    display: none;
+}
+
 .intro-text {
     max-width: 600px;
     padding: 0 100px;
@@ -151,6 +165,12 @@ section {
 .chapter-list {
     padding: 0 100px;
     max-width: 600px;
+    transition: transform 1s ease-in-out;
+    transition-delay: 1s;
+}
+
+.chapter-list--right {
+    transform: translateX(52vw) translateY(-210px);
 }
 
 .chapter-list__item {
@@ -163,7 +183,6 @@ section {
 }
 
 .chapter-list__item:hover {
-    color: inherit;
     filter: brightness(110%);
 }
 
