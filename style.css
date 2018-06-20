@@ -274,13 +274,18 @@ section {
 
 .chapter__extra {
     position: relative;
-    left: 60%;
-    padding: 48px 64px;
-    width: 30%;
+    left: 57%;
+    padding: 40px 64px;
+    width: 33%;
     background-color: #ffc98f;
     border-radius: 8px;
-    margin: -80px 0 -128px;
+    margin: -87px 0 -141px;
     transform: rotate(2deg)
+}
+
+.chapter__extra li {
+    margin-bottom: 7px;
+    margin-left: -6px;
 }
 
 .paragraph-break {
