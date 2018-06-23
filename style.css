@@ -173,6 +173,9 @@ section {
 
 .chapter-list--right {
     transform: translateX(52vw) translateY(-210px);
+    max-width: 500px;
+    overflow-x: hidden;
+    padding-right: 0;
 }
 
 .chapter-list__item {
@@ -191,12 +194,10 @@ section {
 .chapter-list__comment {
     position: absolute;
     left: 580px;
-    transition: opacity 1s ease-in-out;
-    transition-delay: 1s;
 }
 
 .chapter-list--right .chapter-list__comment {
-    opacity: 0;
+    display: none;
 }
 
 @media (max-width: 825px) {
