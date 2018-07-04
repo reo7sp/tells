@@ -172,7 +172,7 @@ section {
 }
 
 .chapter-list--right {
-    transform: translateX(52vw) translateY(-210px);
+    transform: translateX(52vw) translateY(-233px);
     max-width: 500px;
     overflow-x: hidden;
     padding-right: 0;
